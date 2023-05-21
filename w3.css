@@ -2023,3 +2023,9 @@ a {
     color: black;
     background-color: white;
 }
+
+.pagination a:hover,
+.sorting-links a:hover{
+    color: black;
+    background-color: white;
+}
