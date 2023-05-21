@@ -1998,3 +1998,28 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
 }
+
+.pagination a,
+.sorting-links a{
+   margin: auto 5px;
+   font-size: 30px;
+   text-decoration: none;
+   border: 1px black solid;
+   border-radius: 10px;
+   padding: 10px 15px;
+   color: white;
+   background-color: black;
+   transition: ease-in-out 0,3s;
+}
+
+.pagination a.active,
+.sorting-links a.active {
+    color: blue; /* Change the color for active page */
+    font-weight: bold; /* Optional: Add bold font weight */
+}
+
+.pagination a:hover,
+.sorting-links a:hover{
+    color: black;
+    background-color: white;
+}
