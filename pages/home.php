@@ -103,5 +103,5 @@
         <a href="index.php?page=<?php echo $page; ?>&sort=asc">Sort by Harga (Asc)</a>
         <a href="index.php?page=<?php echo $page; ?>&sort=desc">Sort by Harga (Desc)</a>
     </div>
-    <br>
+    
 </div>
